@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Adeelq_CoreCronScheduleViewer::CoreCronScheduleViewer"
+            title="View Cron Schedule"
+            module="Adeelq_CoreCronScheduleViewer"
+            sortOrder="100"
+            action="adeelq_cron/cron"
+            resource="Adeelq_CoreCronScheduleViewer::CoreCronScheduleViewer"
+            parent="Adeelq_CoreModule::Reports"
+        />
+    </menu>
+</config>

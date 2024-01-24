@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Adeelq\CoreCronScheduleViewer\Ui\Model\ResourceModel\Cron\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">cron_schedule</argument>
+            <argument name="resourceModel" xsi:type="string">Magento\Cron\Model\ResourceModel\Schedule</argument>
+        </arguments>
+    </virtualType>
+</config>

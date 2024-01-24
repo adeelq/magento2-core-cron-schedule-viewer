@@ -1,0 +1,31 @@
+{
+    "name": "adeelq/magento2-core-cron-schedule-viewer",
+    "description": "A module which adds grid in admin backOffice for Magento cron_schedule table.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Adeel Qamar",
+            "email": "adeel1qamar@gmail.com"
+        }
+    ],
+    "require": {
+        "adeelq/magento2-core-module": ">=1.0",
+        "magento/module-cron": "100.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adeelq\\CoreCronScheduleViewer\\": ""
+        }
+    }
+}
