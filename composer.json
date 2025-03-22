@@ -2,7 +2,7 @@
     "name": "adeelq/magento2-core-cron-schedule-viewer",
     "description": "A module which adds grid in admin backOffice for Magento cron_schedule table.",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MPL-2.0",
     "authors": [
         {
